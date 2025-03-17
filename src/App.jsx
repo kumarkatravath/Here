@@ -6,6 +6,7 @@ import UsersList from "./UsersList";
 import Person from "./Person";
 import Product from "./Product";
 import Weather from "./Weather";
+import UserStatus from "./UserStatus";
 
 
 
@@ -51,6 +52,7 @@ const App = () => {
   return  ( 
 
   <div> 
+    <UserStatus  loggedIn={true} isAdmin={false}/>
     <Weather />
     <Cart/>
     <Password  isValid={true} />
