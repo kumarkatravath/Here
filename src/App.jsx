@@ -53,6 +53,12 @@ const App = () => {
   return  ( 
 
   <div> 
+    <section>
+      
+      <h1 style={{color: "white", backgroundColor:"teal",padding:"2rem"}}>inline style</h1>
+      
+      
+      </section>
     <Greetings timeofDay="Afternoon" />
     <UserStatus  loggedIn={true} isAdmin={false}/>
     <Weather />
