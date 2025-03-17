@@ -2,7 +2,7 @@ import React from 'react'
 
 const Weather = () => {
 
-    let temp=26
+    let temp=15
     if(temp <15){
         return  <h1>Its cold af,outside</h1>
     }
