@@ -5,6 +5,9 @@ import WelcomeMessage from "./WelcomeMessage";
 import UsersList from "./UsersList";
 import Person from "./Person";
 import Product from "./Product";
+import Weather from "./Weather";
+
+
 
 const ValidPassword = () => <h1>Valid Password</h1>
 const InvalidPassword = () => <h1>invalid Password</h1>
@@ -46,7 +49,9 @@ const Cart =()=>{
 // 📩 aina.garcia@robertwalters.com
 const App = () => {
   return  ( 
+
   <div> 
+    <Weather />
     <Cart/>
     <Password  isValid={true} />
     
