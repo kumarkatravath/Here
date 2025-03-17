@@ -7,6 +7,7 @@ import Person from "./Person";
 import Product from "./Product";
 import Weather from "./Weather";
 import UserStatus from "./UserStatus";
+import Greetings from "./Greetings";
 
 
 
@@ -52,6 +53,7 @@ const App = () => {
   return  ( 
 
   <div> 
+    <Greetings timeofDay="morning" />
     <UserStatus  loggedIn={true} isAdmin={false}/>
     <Weather />
     <Cart/>
