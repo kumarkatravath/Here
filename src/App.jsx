@@ -8,6 +8,7 @@ import Product from "./Product";
 import Weather from "./Weather";
 import UserStatus from "./UserStatus";
 import Greetings from "./Greetings";
+import "./index.css";
 
 
 
@@ -66,10 +67,13 @@ const Cart =()=>{
   <div> 
     <section>
       
+      
       <h1 style={styles}>inline style</h1>
       
       
+      //inline seperate object and importing the file are the ways of styling for now
       </section>
+      
     <Greetings timeofDay="Afternoon" />
     <UserStatus  loggedIn={true} isAdmin={false}/>
     <Weather />
