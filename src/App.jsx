@@ -49,13 +49,24 @@ const Cart =()=>{
 // If you are looking for a new job opportunity or you need help with candidate search, contact me:
 
 // 📩 aina.garcia@robertwalters.com
-const App = () => {
+// const App = () => {
+//   return  ( 
+
+//   <div> 
+//     <section>
+      
+//       <h1 style={{color: "white", backgroundColor:"teal",padding:"2rem"}}>inline style</h1>
+      
+      
+//       </section>
+      const App = () => {
+        const styles={color: "white", backgroundColor:"teal",padding:"4rem"}
   return  ( 
 
   <div> 
     <section>
       
-      <h1 style={{color: "white", backgroundColor:"teal",padding:"2rem"}}>inline style</h1>
+      <h1 style={styles}>inline style</h1>
       
       
       </section>
