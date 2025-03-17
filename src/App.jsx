@@ -53,7 +53,7 @@ const App = () => {
   return  ( 
 
   <div> 
-    <Greetings timeofDay="morning" />
+    <Greetings timeofDay="Afternoon" />
     <UserStatus  loggedIn={true} isAdmin={false}/>
     <Weather />
     <Cart/>
