@@ -89,6 +89,7 @@ const Cart =()=>{
     <MainContent />
     <Footer />
     
+    
   </div>
   );
   //<section>hello kuku bear</section>
